@@ -10,7 +10,7 @@ import SpeedIcon from "@mui/icons-material/Speed";
 import StorageIcon from "@mui/icons-material/Storage";
 const Skills = () => {
   return (
-    <Section className="flex flex-row ">
+    <Section className="flex flex-row " id={"whatIDo"}>
       {/* skills */}
       <div className="grid grid-cols-1 md:grid-cols-2 flex-1 gap-5 order-2 md:order-1">
         <SkillCard

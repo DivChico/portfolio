@@ -18,6 +18,8 @@
     "react-dom": "^18.2.0",
     "react-router": "^6.23.1",
     "react-router-dom": "^6.21.3",
+    "react-scroll-to-top": "^3.0.0",
+    "react-scroll-up": "^1.4.0",
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {

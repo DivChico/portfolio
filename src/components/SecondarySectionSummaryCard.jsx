@@ -12,9 +12,9 @@ function SecondarySectionSummaryCard({
 }) {
   return (
     <div
-      className={`flex justify-center items-start px-1 py-5 md:px-24 ${className} `}
+      className={`flex justify-center w-full items-start px-1 py-5  ${className} `}
     >
-      <div className={`space-y-3 space-x-3  `}>
+      <div className={`space-y-3 space-x-3 w-full  `}>
         <p className="text-neutral-300 text-xs">{header}</p>
         <p className=" text-4xl font-bold">{title}</p>
         <p className="text-white-300 fontsemi tracking-wide text-lg ">{desc}</p>

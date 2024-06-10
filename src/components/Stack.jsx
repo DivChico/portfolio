@@ -5,7 +5,7 @@ import TechCard from "./TechCard";
 
 const Stack = () => {
   return (
-    <Section>
+    <Section id={"techStack"}>
       <SecondarySectionSummaryCard
         header={"Tech Stack"}
         title={" My Tech Stack"}

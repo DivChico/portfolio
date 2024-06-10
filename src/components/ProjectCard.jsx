@@ -2,7 +2,7 @@ import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
 const ProjectCard = () => {
   return (
-    <div className=" bg-gray-300 p-1  relative w-11/12 md:w-5/12 lg:w-3/12 border border-blue-500">
+    <div className=" bg-gray-300 p-1  relative w-12/12  border ">
       <div className="relative">
         <img
           className="w-full hover:"

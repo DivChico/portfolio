@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
   return (
-    <section className="my-5   py-10   space-y-10 ">
+    <section id="testimonials" className="my-5   py-10   space-y-10 ">
       <p className=" text-3xl font-bold text-center">
         What happy clients say about me
       </p>

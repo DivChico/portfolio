@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 
 const Contact = () => {
   return (
-    <Section>
+    <Section id={"contact"}>
       <div className="flex items-center justify-center w-screen overflow-hidden">
         <div className="space-y-5 w-full p-1 ">
           <p className=" text-3xl font-bold flex items-center gap-5 ">

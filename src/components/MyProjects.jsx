@@ -7,12 +7,16 @@ import ProjectsList from "./ProjectsList";
 const MyProjects = () => {
   return (
     <Section>
-      <div>
+      <div className="flex flex-row items-center justify-center space-x-1 md:space-x-2 order-1 md:order-2">
         <Button variant="contained">All Word</Button>
-        <Button variant="outlined">Web Apps</Button>
-        <Button variant="outlined">Mobile Apps</Button>
+        <Button variant="contained">Web Apps</Button>
+        <Button variant="contained">Mobile Apps</Button>
       </div>
-      <SecondarySectionSummaryCard />
+      <SecondarySectionSummaryCard
+        header={"Projects"}
+        title={"My Projects"}
+        className={"order-2 md:order-1"}
+      />
     </Section>
   );
 };

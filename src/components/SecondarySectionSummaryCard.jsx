@@ -1,16 +1,33 @@
 import Button from "@mui/material/Button";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-function SecondarySectionSummaryCard({ className }) {
+function SecondarySectionSummaryCard({
+  className,
+  isBtn,
+  desc,
+  header,
+  title,
+  btnText,
+  btnClickFunction,
+}) {
   return (
-    <div className={`space-y-3 space-x-3 ${className} `}>
-      <p className="text-neutral-300 text-xs">introduction</p>
-      <p className=" text-3xl font-bold">Abullah Hamdy</p>
-      <p className=" text-3xl font-bold">front end web dev</p>
-      <p className="text-neutral-300 text-xs">description</p>
-      <Button variant="contained" endIcon={<ArrowDownwardIcon />}>
-        Send
-      </Button>
+    <div
+      className={`flex justify-center items-start px-1 py-5 md:px-24 ${className} `}
+    >
+      <div className={`space-y-3 space-x-3  `}>
+        <p className="text-neutral-300 text-xs">{header}</p>
+        <p className=" text-4xl font-bold">{title}</p>
+        <p className="text-white-300 fontsemi tracking-wide text-lg ">{desc}</p>
+        {isBtn && (
+          <Button
+            onClick={btnClickFunction}
+            variant="contained"
+            endIcon={<ArrowDownwardIcon />}
+          >
+            {btnText}
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

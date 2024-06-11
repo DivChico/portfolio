@@ -8,7 +8,7 @@ const TestimonialCard = ({ item }) => {
       <p className="text-sm tracking-wider font-semibold text-black flex-1 text-wrap break-words py-1 ">
         {item.comment}
       </p>
-      <p className="text-neutral-300 text-xs self-end ">{item.source}</p>
+      <p className="text-neutral-300  text-xs self-end ">{item.source}</p>
       <div className="flex flex-row items-center gap-2 tracking-wider align-bottom ">
         <Avatar
           sx={{ width: 56, height: 56 }}

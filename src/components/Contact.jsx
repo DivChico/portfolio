@@ -12,7 +12,7 @@ const Contact = () => {
             <EmailIcon fontSize="large" />
             Contact Me
           </p>
-          <p className=" text-xs break-words">
+          <p className=" text-xs break-words ">
             Whether you have a project in mind, a question, or just want to
             connect, I'd love to hear from you! Reach out to me via email or
             through my social media channels, and let's start a conversation.
@@ -22,7 +22,12 @@ const Contact = () => {
               <label htmlFor="email" className="mr-2">
                 Email Address :
               </label>
-              <input type="text" name="email" id="email" className="w-72 " />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                className="w-72 rounded-sm "
+              />
             </div>
             <div className="py-2 flex flex-row items-center ">
               <label htmlFor="message" className="mr-2">
@@ -31,7 +36,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 id="message"
-                className="w-72 h-52"
+                className="w-72 h-52  rounded-sm"
               ></textarea>
             </div>
             <Button sx={{ width: "150px" }} variant="contained">

@@ -93,7 +93,7 @@ const Header = () => {
   );
   return (
     <header className="flex flex-row  items-center justify-between h-[100px] ">
-      <p className="text-3xl font-bold">ChicoDiv</p>
+      <p className="text-3xl font-bold">DivChico</p>
       <nav className=" hidden lg:block ">
         <ul className="  flex flex-row space-x-5 items-center capitalize  text-xl">
           <li className="">

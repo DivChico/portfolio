@@ -6,13 +6,17 @@ import Button from "@mui/material/Button";
 const Contact = () => {
   return (
     <Section id={"contact"}>
-      <div className="flex items-center justify-center w-screen overflow-hidden">
+      <div className="flex items-center  justify-center ">
         <div className="space-y-5 w-full p-1 ">
           <p className=" text-3xl font-bold flex items-center gap-5 ">
             <EmailIcon fontSize="large" />
             Contact Me
           </p>
-          <p className="text-neutral-300 text-xs">description</p>
+          <p className=" text-xs break-words">
+            Whether you have a project in mind, a question, or just want to
+            connect, I'd love to hear from you! Reach out to me via email or
+            through my social media channels, and let's start a conversation.
+          </p>
           <form action="" className="flex flex-col space-y-5">
             <div className="py-2 flex flex-row items-center ">
               <label htmlFor="email" className="mr-2">

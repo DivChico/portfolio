@@ -17,6 +17,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import ScrollToTop from "react-scroll-up";
 import IconButton from "@mui/material/IconButton";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
+import PersonIcon from "@mui/icons-material/Person";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,9 +43,9 @@ const Header = () => {
         <ListItem disablePadding>
           <ListItemButton href="#home">
             <ListItemIcon>
-              <HomeIcon />
+              <PersonIcon />
             </ListItemIcon>
-            <ListItemText primary={"Home"} />
+            <ListItemText primary={"Me"} />
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
@@ -96,32 +97,68 @@ const Header = () => {
       <nav className=" hidden lg:block ">
         <ul className="  flex flex-row space-x-5 items-center capitalize  text-xl">
           <li className="">
-            <Button sx={{ color: "white" }} variant="text">
-              <a href="#home">Home</a>
+            <Button
+              className="flex items-center gap-2"
+              sx={{ color: "white" }}
+              variant="text"
+            >
+              <PersonIcon />
+
+              <a href="#home">Me</a>
             </Button>
           </li>
           <li className="">
-            <Button sx={{ color: "white" }} variant="text">
+            <Button
+              className="flex items-center gap-2"
+              sx={{ color: "white" }}
+              variant="text"
+            >
+              <WorkIcon />
+
               <a href="#whatIDo">What I Do</a>
             </Button>
           </li>{" "}
           <li className="">
-            <Button sx={{ color: "white" }} variant="text">
+            <Button
+              className="flex items-center gap-2"
+              sx={{ color: "white" }}
+              variant="text"
+            >
+              <LayersIcon />
+
               <a href="#techStack">Tech Stack </a>
             </Button>
           </li>{" "}
           <li className="">
-            <Button sx={{ color: "white" }} variant="text">
+            <Button
+              className="flex items-center gap-2"
+              sx={{ color: "white" }}
+              variant="text"
+            >
+              <ComputerIcon />
+
               <a href="#myProjects">My Projects</a>
             </Button>
           </li>{" "}
           <li className="">
-            <Button sx={{ color: "white" }} variant="text">
+            <Button
+              className="flex items-center gap-2"
+              sx={{ color: "white" }}
+              variant="text"
+            >
+              <InsertEmoticonIcon />
+
               <a href="#testimonials">Testimonials</a>
             </Button>
           </li>
           <li className="">
-            <Button sx={{ color: "white" }} variant="text">
+            <Button
+              sx={{ color: "white" }}
+              className="flex items-center gap-2"
+              variant="text"
+            >
+              <EmailIcon />
+
               <a href="#contact">Contact Me</a>
             </Button>
           </li>

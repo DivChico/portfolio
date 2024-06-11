@@ -5,7 +5,7 @@ function HeroSummaryCard({ className }) {
   return (
     <div className={`space-y-10 space-x-3 ${className} `}>
       <p className="text-neutral-300 text-xs">Welcome to My Portfolio </p>
-      <p className=" md:text-6xl xlg:text-9xl text-5xl font-bold">
+      <p className=" md:text-6xl xlg:text-9xl text-5xl font-bold text">
         Abullah Hamdy
       </p>
       <p className="text-white-300 fontsemi tracking-wide text-xl">
@@ -14,7 +14,9 @@ function HeroSummaryCard({ className }) {
         to life through code
       </p>
       <div className="flex items-center justify-center flex-col md:flex-row gap-5">
-        <Button variant="contained">Let&apos;s Talk</Button>
+        <Button variant="contained" href="#contact">
+          Let&apos;s Talk
+        </Button>
         <Button
           href="#myProjects"
           variant="outlined "

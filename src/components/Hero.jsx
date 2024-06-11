@@ -14,8 +14,8 @@ const Hero = () => {
           className="rounded-full aspect-square object-cover"
         /> */}
         <img
-          className="border w-9/12 rounded-full aspect-square object-cover"
-          src="../assets/heroimg.jpg"
+          className=" w-9/12  object-cover hidden  lg:block"
+          src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb4md1nN9adN07L2o_Ctb7Ii7jVxs74MpK7pebHlHuRtc96xE2ShqJOyUxJLrAmZlcC8vNZmZfrpVRmcGkI70wTqCocpKkysA=w1920-h919-rw-v1"
           alt="my Image"
         />
       </div>

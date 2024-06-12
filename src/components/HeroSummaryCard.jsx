@@ -5,7 +5,7 @@ function HeroSummaryCard({ className }) {
   return (
     <div className={`space-y-10 space-x-3 ${className} `}>
       <p className="text-neutral-300 text-xs">Welcome to My Portfolio </p>
-      <p className=" md:text-6xl xlg:text-9xl text-5xl font-bold text">
+      <p className=" text-3xl md:text-5xl lg:text-6xl  font-bold text">
         Abullah Hamdy
       </p>
       <p className="text-white-300 fontsemi tracking-wide text-xl">

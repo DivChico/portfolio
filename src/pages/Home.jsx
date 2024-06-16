@@ -26,8 +26,11 @@ const Home = () => {
           Have a project in your mind?
         </p>
         <Button
-          href="#contact"
-          sx={{ width: "300px" }}
+          sx={{
+            textTransform: "capitalize",
+            width: "300px",
+          }}
+          href="https://www.upwork.com/freelancers/~01c22f96ce390f8cb0"
           variant="contained"
           endIcon={<KeyboardDoubleArrowRightIcon />}
         >

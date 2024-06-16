@@ -2,32 +2,31 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 const MYPROJECTS = [
   {
-    imgUrl:
-      "https://images.ctfassets.net/ooa29xqb8tix/22yB0fxGdusPYvjeHt0tIc/5e8425645473fbfc465de26fff504c89/Metadata_the_Figma_Handbook.jpg",
-    githubLink: "https://www.google.com.sa/",
+    imgUrl: "../../public/assets/e-commerce.png",
+    githubLink: "https://github.com/DivChico/E-commerce-vite",
     category: "web",
-    title: "proejct",
+    liveUrl: "https://e-commerce-chico.onrender.com/",
+    title: "e-commerce UI",
+    desc: "e-commerce practice project",
+    stack: ["react js", "vite ", "material ui", "tailwind"],
   },
   {
-    imgUrl:
-      "https://images.ctfassets.net/ooa29xqb8tix/22yB0fxGdusPYvjeHt0tIc/5e8425645473fbfc465de26fff504c89/Metadata_the_Figma_Handbook.jpg",
-    githubLink: "",
+    imgUrl: "../../public/assets/mu;tisepform.png",
+    githubLink: "https://github.com/AbdelrahmanAyman75/Healer",
     category: "web",
-    title: "proejct",
+    liveUrl: "https://github.com/AbdelrahmanAyman75/Healer",
+    title: "Multi step SignUp form and Doctor Profile ",
+    desc: "Multi step SignUp form and Doctor Profile for healer , a website coneccting patient and doctors",
+    stack: ["react js", "vite ", "material ui", "tailwind"],
   },
   {
-    imgUrl:
-      "https://images.ctfassets.net/ooa29xqb8tix/22yB0fxGdusPYvjeHt0tIc/5e8425645473fbfc465de26fff504c89/Metadata_the_Figma_Handbook.jpg",
-    githubLink: "",
+    imgUrl: "../../public/assets/social medaia.png",
+    githubLink: "https://github.com/DivChico/social-media-app-frontend",
     category: "web",
-    title: "proejct",
-  },
-  {
-    imgUrl:
-      "https://images.ctfassets.net/ooa29xqb8tix/22yB0fxGdusPYvjeHt0tIc/5e8425645473fbfc465de26fff504c89/Metadata_the_Figma_Handbook.jpg",
-    githubLink: "",
-    category: "web",
-    title: "proejct",
+    liveUrl: "https://social-media-app-9fob.onrender.com/",
+    title: "social media clone ",
+    desc: "social media app with login and register functionality , add freinds create and share posts with freinds , commint and like athors post , replay to coommits , edit profile ",
+    stack: ["react js", "material ui", "node js", "express"],
   },
 ];
 const ProjectsList = ({ filter }) => {

@@ -8,10 +8,11 @@ function HeroSummaryCard({ className }) {
       <p className=" text-3xl md:text-5xl lg:text-6xl  font-bold text">
         Abullah Hamdy
       </p>
-      <p className="text-white-300 fontsemi tracking-wide text-xl">
-        a passionate front-end developer specializing in web and mobile
-        applications using React JS. Explore my work and see how I bring ideas
-        to life through code
+      <p className="text-white-300 fontsemi tracking-wide text-md">
+        Hello! I'm a dedicated front-end web developer with a strong foundation
+        in creating responsive and user-friendly web interfaces. With expertise
+        in HTML, CSS, JavaScript, TypeScript, React.js, Next.js, and Tailwind, I
+        can bring your ideas to life, from Figma designs to live websites.
       </p>
       <div className="flex items-center justify-center flex-col md:flex-row gap-5">
         <Button variant="contained" href="#contact">

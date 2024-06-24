@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 const MYPROJECTS = [
   {
-    imgUrl: "../../public/assets/e-commerce.png",
+    imgUrl: "../../assets/e-commerce.png",
     githubLink: "https://github.com/DivChico/E-commerce-vite",
     category: "web",
     liveUrl: "https://e-commerce-chico.onrender.com/",
@@ -11,7 +11,7 @@ const MYPROJECTS = [
     stack: ["react js", "vite ", "material ui", "tailwind"],
   },
   {
-    imgUrl: "../../public/assets/mu;tisepform.png",
+    imgUrl: "../../assets/mu;tisepform.png",
     githubLink: "https://github.com/AbdelrahmanAyman75/Healer",
     category: "web",
     liveUrl: "https://github.com/AbdelrahmanAyman75/Healer",
@@ -20,7 +20,7 @@ const MYPROJECTS = [
     stack: ["react js", "vite ", "material ui", "tailwind"],
   },
   {
-    imgUrl: "../../public/assets/social medaia.png",
+    imgUrl: "../../assets/social medaia.png",
     githubLink: "https://github.com/DivChico/social-media-app-frontend",
     category: "web",
     liveUrl: "https://social-media-app-9fob.onrender.com/",
